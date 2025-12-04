@@ -41,7 +41,7 @@ export const SocketProvider = ({ children }) => {
     
     console.log('SocketContext: Initializing socket connection for', { userId: user._id, userType });
     const socketInstance = io(
-      process.env.REACT_APP_API_URL || "http://localhost:5000",
+      process.env.REACT_APP_BACKEND_URL || "http://localhost:5000",
       {
         withCredentials: true,
         reconnection: true,
