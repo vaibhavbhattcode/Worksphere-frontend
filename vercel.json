@@ -35,8 +35,8 @@
     }
   ],
   "env": {
-    "REACT_APP_BACKEND_URL": "@backend-url",
-    "REACT_APP_RAPIDAPI_KEY": "@rapidapi-key"
+    "REACT_APP_BACKEND_URL": "https://worksphere-backend-ca2h.onrender.com/",
+    "REACT_APP_RAPIDAPI_KEY": "https://resume-parser-service.onrender.com"
   },
   "build": {
     "env": {
